@@ -1,0 +1,83 @@
+  .btn-xl {
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem !important;
+    line-height: 1.5;
+    border-radius: 0.2rem
+  }
+
+  .custom-edged-button {
+    border-radius: 10rem !important;
+    border-width: .125rem;
+    padding: .5rem 1.5rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+
+  .socialll {
+    padding: 0.1rem 1rem !important;
+  }
+
+  .custom-thiccness {
+    border-width: 0.125rem !important;
+    font-size: 1rem;
+  }
+
+  .btn-square-md {
+    width: 100px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100px !important;
+    text-align: center;
+    padding: 0px;
+    font-size: 12px;
+  }
+
+  /* effect-5 styles */
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .custom-edged-button {
+    border-radius: 10rem !important;
+    border-width: 0.125rem;
+    /* padding: 0.5rem 1.5rem; */
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300mm"
+   height="210mm"
+   viewBox="0 0 300 210"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="drawing.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:export-filename="C:\Users\Razat\Desktop\logo\logo-3.png"
+   inkscape:export-xdpi="63.366634"
+   inkscape:export-ydpi="63.366634"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     height="210mm"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="528.91587"
+     inkscape:cy="386.0803"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:31.0337px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;display:inline;stroke-width:0.264583"
+       x="5.0144315"
+       y="156.63496"
+       id="text3752"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="5.0144315"
+         y="156.63496"
+         id="tspan3754">Nationwide Design</tspan></text>
+    <g
+       id="g10174"
+       transform="matrix(0.75898589,0,0,0.75898589,72.994983,16.493577)"
+       style="stroke-width:1.31755">
+      <rect
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.79053;stroke-linejoin:bevel;paint-order:markers stroke fill"
+         id="rect7646"
+         width="6.7730331"
+         height="84.86573"
+         x="49.832214"
+         y="41.4604" />
+      <rect
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.790699;stroke-linejoin:bevel;paint-order:markers stroke fill"
+         id="rect7646-7"
+         width="6.7295303"
+         height="97.043373"
+         x="18.1185"
+         y="64.898918"
+         transform="matrix(0.85372591,-0.52072264,0.5453379,0.8382163,0,0)" />
+      <rect
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.79053;stroke-linejoin:bevel;paint-order:markers stroke fill"
+         id="rect7646-8"
+         width="6.7730331"
+         height="85.891098"
+         x="103.7815"
+         y="40.452084" />
+      <path
+         id="path9932"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.6351;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 110.51386,125.34287 A 41.947207,41.964768 0 0 0 151.76578,83.407084 41.947207,41.964768 0 0 0 110.51386,41.452056 Z" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:none">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 184.4364,131.96445 V 47.380165 l 52.92144,84.265645 0.56079,-84.710529"
+       id="path8348"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>
