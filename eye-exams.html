@@ -58,6 +58,16 @@
 	.green-background {
 		background-color: #1a7e89;
 	}
+
+	.responsive-img-size {
+		width: 100%;
+	}
+
+	@media only screen and (max-width: 767px) {
+		.responsive-img-size {
+			width: 60%;
+		}
+	}
 </style>
 
 <body>
@@ -65,7 +75,7 @@
 		<nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-center container">
 			<div class="container-fluid px-0">
 				<a href="./index.html" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">
-					<img src = "./public/logo/f0.svg"/>
+					<img src="./public/logo/f0.svg" />
 				</a>
 
 				<!-- Empty on purpose-->
@@ -100,15 +110,22 @@
 		<!-- https://stackoverflow.com/questions/52863834/bootstrap-4-how-to-change-flex-order -->
 		<section id="about-section" class="pt-3 pb-3 white-background">
 			<div class="row align-items-center container" style="margin: 0 auto;">
-				<div class="d-flex flex-column order-lg-1 col-lg-4 offset-lg-1">
-					<img style=""
-						src="https://www.uclahealth.org/sites/default/files/styles/portrait_3x4_024000_720x960/public/images/find-a-provider.png?h=db176d21&itok=NzkORJ3y"
-						alt="image of doctor wearing glasses in lab coat">
+				<!-- Set offset of 1 only on large screens.
+					Md devices would be: {7 | 5}
+					Lg devices would be: {7 | 1 | 4}
+				-->
+				<div class="d-flex flex-column order-md-1 col-md-5 offset-lg-1 col-lg-4">
+					<div class="card-body">
+						<img class="responsive-img-size d-block mx-auto"
+							src="https://www.uclahealth.org/sites/default/files/styles/portrait_3x4_024000_720x960/public/images/find-a-provider.png?h=db176d21&itok=NzkORJ3y"
+							alt="image of UCLA Health doctor wearing glasses in lab coat">
+					</div>
+
 				</div>
 
-				<div class="d-flex flex-column col-lg-7">
-					<h1 class="" style="display: inline-block; border-bottom: 1px solid black;">
-						Need to get your eyes checked?</h1>
+				<div class="d-flex flex-column col-md-7 col-lg-7">
+					<h2 class="" style="display: inline-block; border-bottom: 1px solid black;">
+						Need to get your eyes checked?</h2>
 					<p class="mt-2">
 						We're here to make quality, holistic vision care accessible and convenient—that’s why most
 						Warby Parker locations offer comprehensive eye exams (including an eye health check and
@@ -139,8 +156,10 @@
 			<div class="row align-items-center container" style="margin: 0 auto;">
 
 				<div class="d-flex flex-column col-lg-5" style="display: block; margin: auto;">
-					<img src="https://img.warbyparker.com/Exam%20LP/1-D.jpg?quality=70&width=1536"
+					<div class="card-body">
+						<img class = "w-100" src="https://img.warbyparker.com/Exam%20LP/1-D.jpg?quality=70&width=1536"
 						alt="Digital phoropter used for Warby Parker eye exams">
+					</div>
 				</div>
 
 				<div class="d-flex flex-column offset-lg-1 col-lg-6">
@@ -182,9 +201,11 @@
 		<section class="pt-5 pb-5 gray-background">
 			<div class="row align-items-center container" style="margin: auto;">
 				<div class=" thumbnail d-flex flex-column order-lg-1 offset-lg-1 col-lg-5">
-					<img style="" class="img-responsive img-rounded"
+					<div class="card-body">
+						<img style="" class="img-responsive img-rounded w-100"
 						src="https://img.warbyparker.com/Exam%20LP/2-D.jpg?quality=70&width=1536"
 						alt="Best-in-class female and male optometrists smiling">
+					</div>
 				</div>
 				<div class="d-flex flex-column col-lg-6">
 					<h2 class="" style="display: inline-block; border-bottom: 1px solid black;">
@@ -200,9 +221,11 @@
 		<section class="pt-5 pb-5 white-background">
 			<div class="row align-items-center container" style="margin: auto;">
 				<div class=" thumbnail d-flex flex-column col-lg-5">
-					<img style="" class="img-responsive img-rounded"
+					<div class="card-body">
+						<img style="" class="img-responsive img-rounded w-100"
 						src="https://img.warbyparker.com/Exam%20LP/3-D.jpg?quality=70&width=1536"
-						alt="Best-in-class female and male optometrists smiling">
+						alt="">
+					</div>
 				</div>
 				<div class="d-flex flex-column offset-lg-1 col-lg-6">
 					<h2 class="" style="display: inline-block; border-bottom: 1px solid black;">
