@@ -61,27 +61,37 @@
 </style>
 
 <body>
-	<!-- Navbar -->
-	<nav class="navbar navbar-light navbar-expand-md">
-		<div class="container">
-			<a href="./index.html" class="navbar-brand mr" id="site-header">
-				<!-- <img style="height: 50px;  margin: auto;" src="./public/logo/logo.png" /> -->
-				Warby Parker
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2"
-				aria-label="Hamburger Icon"> <span class="navbar-toggler-icon"></span> </button>
-			<div class="navbar-collapse collapse" id="collapsingNavbar2">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="nav-link" href="./index.html" aria-label="View Home Page">
-							Home </a> </li>
-					<li class="nav-item active"> <a class="nav-link" href="./eye-exams.html"
-							aria-label="Learn more about our eye exams">Eye Exams</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="./location.html"
-							aria-label="Locations">Locations</a> </li>
-				</ul>
+	<div class="bg-dark">
+		<nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-center container">
+			<div class="container-fluid px-0">
+				<a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">
+					Warby Parker
+				</a>
+
+				<!-- Empty on purpose-->
+				<div class="navbar-collapse collapse dual-nav w-50 order-2">
+
+				</div>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+					<span class="navbar-toggler-icon justify-content-end"></span>
+				</button>
+				<div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+					<ul class="navbar-nav text-center">
+						<li class="nav-item">
+							<a class="nav-link pl-0" href="./index.html">Home <span class="sr-only">Home</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="./eye-exams.html">Eye Exams</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./location.html">Location</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
+	</div>
 	<header class="site-header border-bottom logo--left" role="banner"> </header>
 	<main class="p-0">
 
