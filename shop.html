@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--- basic page needs (Meta Information)
+	================================================== -->
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<!-- mobile specific metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- SEO Tags -->
+	<meta name="description" content="Shop at Warby Parker!">
+	<meta name="author" content="Raza Tahir">
+	<meta name="keywords" content="Web design, web development, graphic design" />
+
+	<!-- Tab Icon & Title -->
+	<title> Shop | Warby Parker </title>
+	<link id="titleImg" rel="icon" type="image/png" href="./public/img/icons/mountain.png" />
+	<!-- Source: https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=glacier -->
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="./public/css/routes.css" id="main.css" type="text/css">
+
+	<!-- JS
+	================================================== -->
+	<script src="./public/js/jquery.min.js"></script>
+	<script src="./public/js/bootstrap.min.js"></script>
+</head>
+<style>
+	.page-info {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		width: 100%;
+		height: 100px;
+
+		background: url("https://i.warbycdn.com/v/c/assets/Gallery-Spring-2022/image/D-Men-Optical/0/9cc6d3c705/11520x3840/5a7e.jpg?quality=60&width=1800") center no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.collage-size {
+		width: 100%;
+		border: 1px solid none;
+	}
+
+	.shop-jumbotron {
+		background-image: url("https://i.warbycdn.com/v/c/assets/Gallery-Spring-2022/image/D-Men-Optical/0/9cc6d3c705/11520x3840/5a7e.jpg?quality=60&width=1800");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 30vh;
+		margin: auto;
+	}
+
+	.card-header {
+		min-height: 70px;
+		background-color: white;
+		border: none;
+	}
+</style>
+
+<body>
+
+	<div class="bg-dark">
+		<nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-center container">
+			<div class="container-fluid px-0">
+				<a href="./index.html" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">
+					<img src="./public/logo/f0.svg" />
+				</a>
+
+				<!-- Empty on purpose-->
+				<div class="navbar-collapse collapse dual-nav w-50 order-2">
+
+				</div>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+					<span class="navbar-toggler-icon justify-content-end"></span>
+				</button>
+				<div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+					<ul class="navbar-nav text-center">
+						<li class="nav-item">
+							<a class="nav-link pl-0" href="./index.html">Home <span class="sr-only">Home</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./eye-exams.html">Eye Exams</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./location.html">Location</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="shop-jumbotron jumbotron jumbotron-fluid ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h1 class="text-dark d-none d-md-block" style = "padding-top: 20px">Shop frames below</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="pt-3 pb-1 d-sm-block d-md-none" style="border: 1px solid none; color: #414b56;">
+		<div class="text-center container">
+			<h2 class=""> Shop frames below </h2>
+		</div>
+	</div>
+
+	<section class="container pt-5 pb-5">
+		<div class="row" style="border: 1px solid none;">
+			
+			<div class="col-sm-12 col-md-6 col-xl-4 text-center pb-3">
+				<div class="card text-center moveOnHover">
+					<div class="card-header text-left">
+						<img class = "w-25" style = "height: 50px" src = "./public/logo/staff-pick-cropped.svg">
+					</div>
+					<div class="card-body">
+						<img class = "w-100" src = "./public/img/glasses-images/glasses1.jpg" />
+					</div>
+					<div class="card-footer text-muted">
+						<strong>Newman</strong>
+						<br>
+						2 days ago
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-xl-4 text-center pb-3">
+				<div class="card moveOnHover">
+					<div class="card-header text-left">
+						<img class = "w-25" style = "height: 50px" src = "./public/logo/staff-pick-cropped.svg">
+					</div>
+					<div class="card-body">
+						<img class = "w-100" src = "./public/img/glasses-images/glasses2.jpg" />
+					</div>
+					<div class="card-footer text-muted">
+						<strong>Santiago</strong>
+						<br>
+						3 days ago
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-xl-4 text-center pb-3">
+				<div class="card text-center moveOnHover">
+					<div class="card-header">
+						
+					</div>
+					<div class="card-body">
+						<img class = "w-100" src = "./public/img/glasses-images/glasses3.jpg" />
+					</div>
+					<div class="card-footer text-muted">
+						<strong>Denby</strong>
+						<br>
+						4 days ago
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-sm-12 col-md-6 col-xl-4 text-center pb-3">
+				<div class="card text-center moveOnHover">
+					<div class="card-header">
+						
+					</div>
+					<div class="card-body">
+						<img class = "w-100" src = "./public/img/glasses-images/glasses4.jpg" />
+					</div>
+					<div class="card-footer text-muted">
+						<strong>Latrell</strong>
+						<br>
+						5 days ago
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-xl-4 text-center pb-3">
+				<div class="card text-center moveOnHover">
+					<div class="card-header">
+						
+					</div>
+					<div class="card-body">
+						<img class = "w-100" src = "./public/img/glasses-images/glasses5.jpg" />
+					</div>
+					<div class="card-footer text-muted">
+						<strong>Blaise</strong>
+						<br>
+						6 days ago
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-xl-4 text-center pb-3">
+				<div class="card text-center moveOnHover mx-auto">
+					<div class="card-header">
+						
+					</div>
+					<div class="card-body">
+						<img class = "w-100" src = "./public/img/glasses-images/glasses6.jpg" />
+					</div>
+					<div class="card-footer text-muted">
+						<strong>Alford</strong>
+						<br>
+						7 days ago
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="white-background" style="border-top: 1px solid black;">
+		<div class="mt-3 pb-3 row align-items-center container" style="margin: 0 auto;">
+			<div class="d-flex flex-column col-lg-7">
+				<div style="display: block; margin: auto;">
+					<h6 class="text-center">
+						Get the inside scoop on new frames, events, and more
+					</h6>
+				</div>
+			</div>
+			<div class="d-flex flex-column col-lg-5">
+				<div style="display: block; margin: auto;">
+
+					<!-- <form class="form-inline my-2 my-lg-0 mr-0">
+							<input class="form-control" type="search" placeholder="Email" aria-label="Search">
+							<button class="btn btn-primary my-2 my-sm-0" type="submit">
+								<i class="fa fa-arrow-right"></i>
+							</button>
+						</form> -->
+					<div class="input-group">
+						<input type="hidden" name="search_param" value="all" id="search_param">
+						<input type="text" class="form-control" name="x" placeholder="Email">
+
+						<button class="btn btn-dark-blue text-white" type="" style="border-radius: 0rem;">
+							<i class="fa fa-arrow-right"></i>
+						</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- Footer Links -->
+	<footer class="page-footer font-small blue">
+		<div class="container-fluid text-center text-md-left container py-4" style="">
+			<div class="row text-left">
+				<!-- Grid row -->
+				<!-- Contact Us Grid column -->
+				<div class="col-md-8 mt-md-0 mt-3">
+					<!-- Content -->
+					<h5 class="text-uppercase font-weight-bold">Pages</h5>
+					<ul class="list-unstyled">
+						<li> <a href="./index.html">Home</a> </li>
+						<li> <a href="./eye-exams.html">Eye Exams</a> </li>
+						<li> <a href="./location.html">Location</a> </li>
+						<li> <a class = "text-white" href="./shop.html">Shop</a> </li>
+					</ul>
+				</div>
+				<!-- HR (Can be seen on mobile) -->
+				<hr class="clearfix w-100 d-md-none pb-3">
+				<!-- Social Media Grid column -->
+				<div class="col-md-4 mb-md-0 mb-3">
+					<!-- Content -->
+					<h5 class="text-uppercase font-weight-bold">Follow Us on the Web</h5>
+					<button class="btn btn-primary square moveOnHover" style="background-color: #1877f2;">
+						<a href="https://www.facebook.com/">
+							<i class="fa fa-facebook-f" style="color: white; font-size: 2rem !important;"></i>
+						</a>
+					</button>
+					<button class="btn btn-primary square moveOnHover" style="background-color: rgb(29, 155, 240);">
+						<a href="https://twitter.com/">
+							<i class="fa fa-twitter" style="color: white; font-size: 2rem !important;"></i>
+						</a>
+					</button>
+				</div> <!-- End Grid column -->
+			</div> <!-- End of Grid row -->
+		</div> <!-- End of Footer Links -->
+
+		<!-- Copyright -->
+		<div style="background-color: #1b2731;" class="footer-copyright text-center py-3">
+			<!-- <hr style="background-color: #fff;">  -->
+			© 2022 Copyright: Raza Tahir
+		</div> <!--  End of Copyright -->
+	</footer>
+
+</body>
+
+</html>

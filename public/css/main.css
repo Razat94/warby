@@ -606,6 +606,15 @@
 	}
 
 	/* Added Classes for Warby project */
+	.gray-box {
+		background: #111;
+		opacity: 0.8;
+	}
+
+	.gray-box, h1, h2 {
+		font-family: utopia-std;
+	}
+
 	.btn-dark-blue {
 		background-color: #006ea5;
 	}
@@ -616,6 +625,27 @@
 
 	.gray-background {
 		background: #eff3f5;
+	}
+
+	.green-background {
+		background-color: #1a7e89;
+	}
+
+	.lone-paragraph {
+		font-size: 20px;
+		-webkit-text-decoration: none;
+		text-decoration: none;
+		font-family: utopia-std-display;
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		-webkit-letter-spacing: 0;
+		-moz-letter-spacing: 0;
+		-ms-letter-spacing: 0;
+		letter-spacing: 0;
+		line-height: 30px;
+		text-transform: none;
+		margin-bottom: 12px;
 	}
 
 	/* Email search bar css */
